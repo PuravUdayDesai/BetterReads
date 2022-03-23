@@ -47,4 +47,4 @@ atlassian-ide-plugin.xml
 
 ## Data
 data/
-/betterreads-data-loader/src/main/resources/secure-connect.zip
+betterreads-data-loader/src/main/resources/secure-connect.zip
