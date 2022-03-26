@@ -9,8 +9,8 @@ spring:
     data:
         cassandra:
             keyspace-name: main
-            username: PnNcbnGqwZUNEhjiWWMhDekc
-            password: Hp2gOc,SZ_JZjWP64A8yAw+Z9q8p0LOq5z0PirpF4hRbmnUcPUANIG+s9,WZrWyYhBOD.fEHrHDXNOz.q,UcwdC57mRxa5WevSqTZ0F2zr70c2GDq-Me0RceQS-EmC0S
+            username: <username>
+            password: <password>
             schema-action: recreate
             request:
                 timeout: 10s
