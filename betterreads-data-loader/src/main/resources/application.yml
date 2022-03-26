@@ -1,10 +1,17 @@
+spring.application.name: better-data-loader
+
+datadump.location:
+    author: /home/purav/Desktop/Desktop/BetterReads-JavaBrains/data/test-authors.txt
+    works: /home/purav/Desktop/Desktop/BetterReads-JavaBrains/data/test-works.txt
 spring:
+    main:
+        allow-circular-references: true
     data:
         cassandra:
             keyspace-name: main
-            username: <username>
-            password: <secret>
-            schema-action: create-if-not-exists
+            username: PnNcbnGqwZUNEhjiWWMhDekc
+            password: Hp2gOc,SZ_JZjWP64A8yAw+Z9q8p0LOq5z0PirpF4hRbmnUcPUANIG+s9,WZrWyYhBOD.fEHrHDXNOz.q,UcwdC57mRxa5WevSqTZ0F2zr70c2GDq-Me0RceQS-EmC0S
+            schema-action: recreate
             request:
                 timeout: 10s
             connection:
@@ -15,7 +22,7 @@ datastax.astra:
     secure-connect-bundle: secure-connect.zip
 
 astra.db:
-    id: <db-id>
+    id: 8ad7e462-acaa-4b1b-b760-7491c8a39a26-1
     region: us-east1
     keyspace: main
-    application.token: <token>
+    application.token: AstraCS:PnNcbnGqwZUNEhjiWWMhDekc:6731ada59dc5f02f954f420966e477962d1f7204172d77c4a83ce6b813dfec7d
